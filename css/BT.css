@@ -196,6 +196,10 @@ body {font-family: gitbook-content-font, -apple-system, BlinkMacSystemFont, "Seg
     height:40px
 }
 
+.navbar-icon {
+    padding: 10px;
+}
+
 .col-sm-2.navbar-icon{
     vertical-align:middle;
 }
@@ -203,4 +207,12 @@ body {font-family: gitbook-content-font, -apple-system, BlinkMacSystemFont, "Seg
 .collapse{
     text-align: center;
     padding-top: 12px;
+}
+
+.baba {
+    text-align: center;
+}
+
+.mountain-jpg{
+    width: 100%;
 }
