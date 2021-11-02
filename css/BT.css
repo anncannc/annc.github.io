@@ -1,0 +1,206 @@
+.jumbotron{
+   background-image: url("https://tnimage.s3.hicloud.net.tw/photos/2021/09/08/1631084608-613860406e881.PNG") ;
+   background-position:30% 30%;
+   height: 70vh;
+   margin-bottom: 0px;
+   background-size: cover;
+   background-repeat: repeat;
+}
+
+.display-5{
+    color: rgb(59, 59, 59);
+    padding-top:25px;
+    font-size: 38px;
+    padding-bottom:25px;
+}
+
+
+body {font-family: gitbook-content-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color:rgb(59, 59, 59);
+}
+
+.col-sm-6 .box {
+    height: 200px;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.col-sm-12 {
+    height: 20px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    font-size: 18px;
+}
+
+.carousel-caption{
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: 10px;
+}
+
+.item img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding:10px;
+}
+
+.carousel {
+    height:400px
+}
+
+.carousel-item img{
+    width: 100px;
+    height:400px;
+}
+
+
+.col-sm-8 {
+    padding: 40px;
+    font-size: 18px;
+}
+
+.col-sm-4{
+    font-size: 18px;
+}
+
+.col-sm-5{
+    font-size: 9px;
+    color:rgb(165, 165, 165);
+    padding-top: 6PX;
+}
+
+.col-3{
+    text-align: center;
+}
+
+.col-12{
+    height: 100px;
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+} 
+
+.col-sm-6 .item{
+    padding-top:80px;
+    padding-right: 20px;
+    padding-bottom:50px;
+    color:rgb(97, 97, 97);
+    text-align: center;
+    
+}
+
+.col-sm-6 .text{
+    padding-right: 40px;
+    font-size: 20px;
+    padding-bottom: 0px;
+    
+}
+
+.col-sm-8 .item{
+    padding-top:0px;
+    padding-right: 20px;
+    padding-bottom:30px;
+    color:rgb(97, 97, 97);
+    text-align: center;
+}
+
+.col-sm-8 .words{
+    padding-top:4px;
+    font-size: 9px;
+    color:rgb(165, 165, 165);
+    text-align: center;
+}
+
+.col-sm-8 .text{
+    padding-top:0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom:0px;
+}
+
+.col-sm-8 .lasttext{
+    padding-top:30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom:0px;
+}
+
+.col-sm-6 .words{
+    padding-top:0px;
+    padding-bottom:20px;
+    padding-left:20px;
+    font-size: 9px;
+    color:rgb(165, 165, 165);
+
+}
+
+.col-sm-8 .textsource{
+    font-size: 9px;
+    color:rgb(165, 165, 165);
+    
+}
+
+
+.row2.col-sm-6 {
+    height:200px;
+}
+
+
+.col-sm-6 .bottomwords{
+    padding-top:0px;
+    padding-bottom:20px;
+    padding-left:20px;
+    font-size: 15px;
+    color:rgb(165, 165, 165);
+
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#twelfth{
+    padding-left: 2px;
+}
+
+.col-sm-6 .bottombox{
+    height: 200px;
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    width: 5%;
+    padding-left: 1%;
+}
+.navbar{
+    background-color: rgb(165, 165, 165);
+}
+
+.nav-item{
+    padding-left:10%;
+    text-align: center;
+}
+
+.nav-link img {
+    width:2px;
+    height:2px;
+    padding-left: 1%;
+}
+
+.navbar-icon img{
+    width:40px;
+    height:40px
+}
+
+.col-sm-2.navbar-icon{
+    vertical-align:middle;
+}
+
+.collapse{
+    text-align: center;
+    padding-top: 12px;
+}
