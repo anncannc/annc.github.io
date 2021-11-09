@@ -1,0 +1,53 @@
+body {font-family: gitbook-content-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color:rgb(59, 59, 59);
+}
+
+
+#first {
+    background-image: url("https://images.chinatimes.com/newsphoto/2021-10-23/656/B07A00_P_01_02.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second {
+    background-image: url("https://images.chinatimes.com/newsphoto/2021-10-23/656/B07A00_P_01_02.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:grayscale(100%);
+}
+
+.navbar-nav{
+    height:10px;
+}
+
+.navbar-brand img{
+    width: 30px;
+    height:30px;
+}
+
+.title{
+    padding-top: 50px;
+}
+
+.bottombox{
+    padding:20px;
+}
+
+.textsource{
+    padding:100px;
+}
+
+.firsttext{
+    padding:50px;
+}
+
+.secondtext{
+    padding: 20px;
+}
