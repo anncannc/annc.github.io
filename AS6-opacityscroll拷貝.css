@@ -1,0 +1,23 @@
+#first {
+    background-image: url("https://images.chinatimes.com/newsphoto/2021-10-23/656/B07A00_P_01_02.jpg");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.earth-img {
+	position: fixed;
+	width: 80%;
+	object-fit: cover;
+	opacity: 1;
+}
+
+/* .transit-effect1 {
+	transition: all 1s;
+} */
+
+#mapmove {
+	color: white;
+}
