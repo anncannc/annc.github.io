@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Parallax vertical</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <style>
+        img {
+            width: 10%;
+            position: absolute;
+        }
+    </style>
+    <script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+<div id="div1" style="min-height:700px;">
+    <img id="bg-img" class="container-fluid" src="photo/banner _工作區域 1-05.png"> 
+</div>
+<div id="div2" style=min-height:890px;position:relative;">
+    <img id="bg-img" class="container-fluid" src="photo/backfinalpng_工作區域 1-02.png">
+    <img class="parallax" src="photo/USA FLAG-03.png" data-pos="300" data-speed=".4" style="left:0.3%;top:200px;">
+    <img class="parallax" src="photo/JPN-04.png" data-pos="120" data-speed=".35" style="left:12%;top:300px;">
+    <img class="parallax" src="photo/GHA-04.png" data-pos="100" data-speed=".2" style="left:25%;top:400px;">
+    <img class="parallax" src="photo/SVK-04.png" data-pos="200" data-speed=".35" style="left:38%;top:300px;">
+    <img class="parallax" src="photo/TPE-04.png" data-pos="100" data-speed="1" style="left:52%;top:600px;">
+    <img class="parallax" src="photo/RSA-04.png" data-pos="400" data-speed=".37" style="left:65%;top:300px;">
+    <img class="parallax" src="photo/JAM-04.png" data-pos="300" data-speed=".4" style="left:80%;top:700px;">
+    <img class="parallax" src="photo/USA FLAG-03.png" data-pos="200" data-speed=".15" style="left:90%;top:700px;">
+
+</div>
+
+<div><img class="container-fluid" src="photo/last_工作區域 1-07.png">
+</div>
+
+
+
+
+    <script>
+$(document).ready(function() {
+    var div2_pos = $("#div2").offset().top;
+    $(window).scroll(function() {
+        var scrolled = $(window).scrollTop();
+
+        if (scrolled > div2_pos) {
+            $(".parallax").each(function() {
+                $(this).css('top', ($(this).data("pos") + (scrolled-div2_pos) * $(this).data("speed")) + 'px');
+            });
+        }
+
+    });
+});
+    </script>
+
+    
+</body>
+
+
+</html>

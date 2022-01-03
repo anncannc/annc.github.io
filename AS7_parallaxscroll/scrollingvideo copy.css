@@ -1,0 +1,11 @@
+
+
+
+#div1 {
+    background-image: src="AS7_parallaxscroll/";
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
